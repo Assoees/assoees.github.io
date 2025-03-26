@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 06</title>
+</head>
+<body>
+    <h1>Vormide loomine</h1>
+        <form action="#" method="post">
+            <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><label>Kasutajanimi: </label></td>
+                        <td><input type="text" placeholder="Max pikkus 6" maxlength="6"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Kursus: </label></td>
+                        <td><input type="text" placeholder="Max pikkus 3" maxlength="3"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Osakonna number: </label></td>
+                        <td><input type="number" value="1" min="1" max="99" step="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Parool: </label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Vali teenus: </label></td>
+                        <td>
+                            <select>
+                            <option>Odav 0,59€</option>
+                            <option>Keskimine 1,10€</option>
+                            <option>Kallis 2,50€</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Roll: </label></td>
+                        <td>
+                            <input type="radio" name="roll" value="adm">Admin<br>
+                            <input type="radio" name="roll" value="mod">Moderator<br>
+                            <input type="radio" name="roll" value="user">User<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Nõustun tingimustega: </label></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Enesetutvustus:</label></td>
+                        <td><textarea rows="10" cols="20"></textarea><br></td>
+                    </tr>
+                    <tr>
+                        <td><input value="Tühjenda väljad" name="clr" type="reset"></td>
+                        <td><input value="Saada" name="send" type="submit"></td>
+                    </tr>
+            </table>
+
+
+
+
+
+
+
+
+
+        </form>
+</body>
+</html>
